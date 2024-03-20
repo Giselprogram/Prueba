@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app version="6.0" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_6_0.xsd">
+    <servlet>
+        <servlet-name>guardarEmpleado</servlet-name>
+        <servlet-class>servlet.guardarEmpleado</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>borrarempleado</servlet-name>
+        <servlet-class>servlet.borrarempleado</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>guardarEmpleado</servlet-name>
+        <url-pattern>/guardarEmpleado</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>borrarempleado</servlet-name>
+        <url-pattern>/borrarempleado</url-pattern>
+    </servlet-mapping>
+</web-app>
+
